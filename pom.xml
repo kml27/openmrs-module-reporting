@@ -3,7 +3,7 @@
 
 	<groupId>org.openmrs.module</groupId>
 	<artifactId>reporting</artifactId>
-	<version>1.14.0</version>
+	<version>1.14.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>Reporting</name>
 	<description>Parent project for Reporting</description>
@@ -14,7 +14,7 @@
 		<connection>scm:git:git@github.com:openmrs/openmrs-module-reporting.git</connection>
 		<developerConnection>scm:git:git@github.com:openmrs/openmrs-module-reporting.git</developerConnection>
 		<url>https://github.com/openmrs/openmrs-module-reporting/</url>
-        <tag>1.14.0</tag>
+        <tag>1.14.1-SNAPSHOT</tag>
     </scm>
 	
 	<distributionManagement>
@@ -50,7 +50,9 @@
 		<groovyVersion>1.8.7</groovyVersion>
         <jodatimeVersion>2.3</jodatimeVersion>
         <handlebarsVersion>1.1.2</handlebarsVersion>
-        <openmrsTestutilsVersion>1.2</openmrsTestutilsVersion>
+	<openmrsTestutilsVersion>1.2</openmrsTestutilsVersion>
+	<javaCompilerSource>1.8</javaCompilerSource>
+	<javaCompilerTarget>1.8</javaCompilerTarget>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<MODULE_ID>${project.parent.artifactId}</MODULE_ID>
 		<MODULE_NAME>Reporting</MODULE_NAME>

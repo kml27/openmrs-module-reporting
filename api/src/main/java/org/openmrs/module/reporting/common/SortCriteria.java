@@ -96,7 +96,7 @@ public class SortCriteria {
 	
 	//***** INNER CLASSES *****
 	
-	public class SortElement {
+	public static class SortElement {
 		
 		//***** PROPERTIES *****
 		
